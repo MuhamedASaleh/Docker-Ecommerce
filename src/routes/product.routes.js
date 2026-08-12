@@ -15,7 +15,7 @@ router.get("/:id", productController.getProductById);
 
 router.post("/",
     authenticate,
-    authorize("ADMIN"),
+    // authorize("ADMIN"),
     upload.single("image"),
     createProductValidation,
     validationMiddleware,

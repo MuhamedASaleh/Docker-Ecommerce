@@ -6,7 +6,8 @@
       "Bash(node -e 'const d=require\\('\\\\''C:/Users/Admin/AppData/Local/Temp/claude/c--Users-Admin-docker-commerce/a07bc745-1fbb-4f41-8cc7-fa2c4f6206c8/scratchpad/login2.json'\\\\''\\); console.log\\(d.data.accessToken\\)')",
       "Bash(node -pe 'JSON.parse\\(require\\('\\\\''fs'\\\\''\\).readFileSync\\('\\\\''C:/Users/Admin/AppData/Local/Temp/claude/c--Users-Admin-docker-commerce/a07bc745-1fbb-4f41-8cc7-fa2c4f6206c8/scratchpad/product1.json'\\\\'','\\\\''utf8'\\\\''\\)\\).data.id')",
       "Bash(curl -s -w '\\\\nHTTP %{http_code}\\\\n' -X DELETE http://localhost:__TRACKED_VAR__/api/products/__TRACKED_VAR__ -H 'Authorization: Bearer __CMDSUB_OUTPUT__')",
-      "Bash(docker exec *)"
+      "Bash(docker exec *)",
+      "Bash(docker compose *)"
     ]
   }
 }
