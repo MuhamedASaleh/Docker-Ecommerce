@@ -1,6 +1,6 @@
-name: CI      // name of the workflow
+name: CI     
 
-on:       // work when i push on origin main or when i create a pull request on origin main
+on:       
   push:
     branches:
       - main
