@@ -10,7 +10,7 @@ on:
       - main
 
 jobs:
-  test:    // name of the job
+  test:   
     runs-on: ubuntu-latest
 
     steps:
