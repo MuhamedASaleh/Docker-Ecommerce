@@ -36,7 +36,7 @@ async function startServer() {
 
         await connectRedis();
         server = app.listen(PORT, () => {
-            console.log(`🚀 Server running on ${PORT}`);
+            console.log(`🚀 Server running on ${PORT}  `);
         });
 
         process.on("SIGTERM", () => shutdown("SIGTERM"));
